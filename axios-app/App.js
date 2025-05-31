@@ -105,7 +105,7 @@ const App = () => {
           <Text style={styles.movieTitle}> Actores: {movieData.Actors}</Text>
           <Text style={styles.movieTitle}> Director: {movieData.Director}</Text>
           <Text style={styles.movieTitle}> Genero: {movieData.Genre}</Text>
-          <Text style={styles.movieTitle}> Ratings: {movieData.Ratings}</Text>
+          <Text style={styles.movieTitle}> Ratings: </Text>
           {movieData.Ratings?.map((rating, index) => (
             <Text key={index} style={styles.movieTitle}>
               {rating.Source}: {rating.Value}
